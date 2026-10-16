@@ -143,7 +143,7 @@ function App() {
         </section>
 
         <section className="section-wrap section-block" id="research">
-          <SectionHeading eyebrow="RESEARCH & PUBLICATIONS" title="Curiosity beyond" accent="the classroom." description="Research documents and academic work. Titles can be updated when you confirm the paper names." />
+          <SectionHeading eyebrow="RESEARCH & PUBLICATIONS" title="Curiosity beyond" accent="the classroom." description="Here are my research papers on crop recommendation and sustainable agriculture." />
           <div className="research-grid">
             {researchPapers.map((paper, i) => <article className="glass-card research-card" key={paper.title}>
               <div className="research-icon"><FileText size={24} /></div><span className="card-index">PAPER / 0{i + 1}</span><h3>{paper.title}</h3><p>{paper.description}</p>
